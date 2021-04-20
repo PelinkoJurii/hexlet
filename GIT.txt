@@ -1,0 +1,58 @@
+sudo apt update
+
+sudo apt install git-all
+
+ git --version
+
+
+Update GIT
+
+$ sudo apt install software-properties-common
+$ sudo add-apt-repository ppa:git-core/ppa
+$ sudo apt update
+$ sudo apt install git
+
+
+Connect GIT
+
+$ git config --global user.name "PelinkoJurii"
+$ git config --global user.email "pelinko19@gmail.com"
+
+SSH connect
+Create shh key
+$ ssh-keygen -t rsa -b 4096 -C "pelinko19@gmail.com"
+Enter agent ssh
+$ eval "$(ssh-agent -s)"
+
+add new key for ssh
+
+ssh-add ~/.ssh/id_rsa
+
+read key shh
+
+ssh-add ~/.ssh/id_rsa
+
+
+create new project
+
+$ mkdir "new folder for project"
+$ cd "new folder for project"
+
+initialization new project 
+
+hexlet-git$ git init
+
+add file in GIT
+
+git status
+
+git add README.md
+
+
+git commit -m 'add README.md'
+
+git remote add origin https://github.com/PelinkoJurii/hexlet.git
+
+git push -u origin main
+
+
