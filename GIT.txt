@@ -56,3 +56,4 @@ git remote add origin https://github.com/PelinkoJurii/hexlet.git
 git push -u origin main
 
 
+git clone url folder
